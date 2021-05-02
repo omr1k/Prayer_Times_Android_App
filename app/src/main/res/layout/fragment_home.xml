@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical"
+    android:background="#0D47A1"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Spinner
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/SpinnerCity"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/city"
+            android:gravity="center"
+            android:spinnerMode="dialog"
+            android:textDirection="ltr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.097" />
+
+        <TextView
+            android:id="@+id/hjre_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="240dp"
+            android:gravity="center"
+
+            android:textColor="@color/city_and_date_color"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/english_date"
+
+            app:layout_constraintTop_toBottomOf="@+id/english_city" />
+
+        <TextView
+
+            android:id="@+id/english_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+
+            android:textColor="@color/city_and_date_color"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/english_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="5dp"
+
+            android:textColor="@color/city_and_date_color"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/english_city" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+
+            android:background="@drawable/times_bakground"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+
+                android:layout_margin="@dimen/_15ssp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fjer"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+
+                    android:text="4:27 am"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_12ssp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/a2_regular"
+                android:text="صلاة الفجر"
+                android:textColor="#FDFDFD"
+                android:gravity="center"
+                android:textSize="@dimen/_15ssp" />
+
+                <ImageView
+
+                    android:src="@drawable/ic_praying__1_"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_margin="@dimen/_15ssp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dher"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+
+                    android:text="4:27 am"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_12ssp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent"
+
+                    android:fontFamily="@font/a2_regular"
+                    android:text="صلاة الظهر"
+                    android:textColor="#FDFDFD"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15ssp" />
+
+                <ImageView
+
+                    android:src="@drawable/ic_praying__1_"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_margin="@dimen/_15ssp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/aser"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+
+                    android:text="4:27 am"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_12ssp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent"
+
+                    android:fontFamily="@font/a2_regular"
+                    android:text="صلاة العصر"
+                    android:textColor="#FDFDFD"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15ssp" />
+
+                <ImageView
+
+                    android:src="@drawable/ic_praying__1_"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_margin="@dimen/_15ssp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mgrep"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+
+                    android:text="4:27 am"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_12ssp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent"
+
+                    android:fontFamily="@font/a2_regular"
+                    android:text="صلاة المغرب"
+                    android:textColor="#FDFDFD"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15ssp" />
+
+                <ImageView
+
+                    android:src="@drawable/ic_praying__1_"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_margin="@dimen/_15ssp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/asha"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+
+                    android:text="4:27 am"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_12ssp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent"
+
+                    android:fontFamily="@font/a2_regular"
+                    android:text="صلاة العشاء"
+                    android:textColor="#FDFDFD"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15ssp" />
+
+                <ImageView
+
+                    android:src="@drawable/ic_praying__1_"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <Button
+        android:scrollbars = "vertical"
+        android:id="@+id/tt"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:background="@color/teal_200"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:text="fetch"/>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_islamic_friday_prayer"
+        android:title="الرئيسية"/>
+    <item
+        android:id="@+id/navigation_duaa"
+        android:icon="@drawable/ic_dua_hands"
+        android:title="ادعية واذكار"/>
+</menu>
+
+    <!--    <item-->
+    <!--        android:id="@+id/navigation_notifications"-->
+    <!--        android:icon="@drawable/ic_notifications_black_24dp"-->
+    <!--        android:title="@string/title_notifications" />-->

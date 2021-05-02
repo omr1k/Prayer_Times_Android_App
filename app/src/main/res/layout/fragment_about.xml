@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment"
+    android:orientation="vertical"
+    android:background="@color/zytoni">
+
+    <ImageView
+        android:padding="@dimen/_15sdp"
+        android:src="@drawable/ic_information"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:background="@color/zytoni"
+        android:id="@+id/text_about"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:text="@string/aboutText"
+        android:textAlignment="center"
+        android:padding="@dimen/_5sdp"
+        android:textSize="@dimen/_20ssp"/>
+</LinearLayout>

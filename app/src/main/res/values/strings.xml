@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">اوقات الصلاة</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="aboutText">
+        عن التطبيق
+        تطبيق اوقات الصلاة هو تطبيق بسيط يحتوي على مواعيد واوقات الصلاة في الدول العربية اضافة الى بعض الادعية والاذكار
+    </string>
+</resources>
