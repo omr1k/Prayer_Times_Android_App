@@ -106,7 +106,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent"
 
-                    android:text="4:27 am"
+                    android:text="0:00 am"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/_12ssp" />
             <TextView
@@ -145,7 +145,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent"
 
-                    android:text="4:27 am"
+                    android:text="0:00 am"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/_12ssp" />
                 <TextView
@@ -184,7 +184,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent"
 
-                    android:text="4:27 am"
+                    android:text="0:00 am"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/_12ssp" />
                 <TextView
@@ -223,7 +223,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent"
 
-                    android:text="4:27 am"
+                    android:text="0:00 am"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/_12ssp" />
                 <TextView
@@ -262,7 +262,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent"
 
-                    android:text="4:27 am"
+                    android:text="0:00 am"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/_12ssp" />
                 <TextView

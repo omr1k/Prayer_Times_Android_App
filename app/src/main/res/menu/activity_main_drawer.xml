@@ -10,17 +10,22 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:title="الرئيسية" />
+            android:title="الرئيسية"
+            android:icon="@drawable/ic_praying__1_"/>
         <item
             android:id="@+id/nav_about"
-            android:title="عن التطبيق"/>
+            android:title="عن التطبيق"
+            android:icon="@drawable/ic_baseline_error_outline_24"
+            />
     </group>
 
     <item>
         <menu>
             <item
                 android:id="@+id/share"
-                android:title="شارك التطبيق" />
+                android:title="شارك التطبيق"
+                android:icon="@drawable/ic_baseline_share_24"
+                />
         </menu>
     </item>
 </menu>
